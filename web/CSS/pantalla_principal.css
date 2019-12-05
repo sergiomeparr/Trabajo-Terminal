@@ -1,0 +1,121 @@
+
+
+#cuadro{
+    width: 550px;
+    border-bottom: 1px solid #58acfa;
+    border-top:1px solid #58acfa;
+    border-left:1px solid #58acfa;
+    border-right:1px solid #58acfa;
+    margin:auto;
+    margin-top:190px;
+    border-radius:10px;
+}
+
+#cuadro2{
+    width: 550px;
+    border-bottom: 1px solid #6E6E6E;
+    border-top:1px solid #6E6E6E;
+    border-left:1px solid #6E6E6E;
+    border-right:1px solid #6E6E6E;
+    margin:auto;
+    margin-top:190px;
+    border-radius:10px;
+}
+
+#cabeza{
+    width: 539px;
+    background: #bae1ff;
+    height:35px;
+    border-radius:10px 10px 0px 0px;
+    padding-left: 11px;
+    padding-top:6px;
+    color: #ffffff;
+    margin: auto; 
+}
+
+#cabeza2{
+    width: 539px;
+    background: #6E6E6E;
+    height:35px;
+    border-radius:10px 10px 0px 0px;
+    padding-left: 11px;
+    padding-top:6px;
+    margin: auto; 
+}
+
+#cabeza .icono, #cabeza2 .icono {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 50px);
+}
+
+.col-sm-11 input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 1.5s;
+    outline: none;
+}
+
+.col-sm-10 input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 1.5s;
+    outline: none;
+}
+
+.col-sm-11 label {
+    size: 15px;
+    margin-left: 10px;
+    font-size:25px;
+}
+
+.col-sm-10 label {
+    size: 15px;
+    margin-left: 30px;
+    font-size:25px;
+}
+
+.boton{
+    padding-left: 50px;
+}
+
+#cuerpo{
+    height:190px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:25px;
+    border-radius:0px 0px 10px 10px;
+    background: #ffffff;
+}
+
+.boton button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #bae1ff;
+    height:40px;
+}
+
+.boton button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.boton span.esconder {
+    color: white;
+}
+
+span.incorrecto {
+    color: red;
+    padding: 0 0 0 300px;
+}
